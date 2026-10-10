@@ -1,0 +1,31 @@
+{
+  "name": "basics-of-api-testing-with-playwright",
+  "version": "1.0.0",
+  "description": "👋 Welcome!",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test --project=api",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduQuaresimin/basics-of-api-testing-with-playwright.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/EduQuaresimin/basics-of-api-testing-with-playwright/issues"
+  },
+  "homepage": "https://github.com/EduQuaresimin/basics-of-api-testing-with-playwright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.5",
+    "zod": "^4.6.5"
+  }
+}
